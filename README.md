@@ -104,5 +104,7 @@ The app will be available at `http://localhost:5173`.
 ## Author
 
 Brianna Salinas Guzman
+
 Course: Aplicaciones Web
+
 Date: May 2026
