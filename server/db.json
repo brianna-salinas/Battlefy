@@ -1,0 +1,117 @@
+{
+  "tournaments": [
+    {
+      "id": 1,
+      "name": "Shooter Champions Cup",
+      "description": "Competitive tournament focused on tactical and team-based shooter games.",
+      "gameGenre": "shooter",
+      "bannerUrl": "https://f.rpp-noticias.io/2020/04/21/460146_930790.png?width=1020&quality=80",
+      "urlToTournament": "https://battlefy.com/"
+    },
+    {
+      "id": 2,
+      "name": "MMORPG Legends Arena",
+      "description": "Online tournament experience for massive multiplayer role-playing communities.",
+      "gameGenre": "mmorpg",
+      "bannerUrl": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcSWT0MZPP5sZJ23Dj5JdgZudVW0yH_Dlout57knRfWp-kUAcTFA1E23IP7nigc1K42kY6E1jU50Je36YF0",
+      "urlToTournament": "https://battlefy.com/"
+    },
+    {
+      "id": 3,
+      "name": "Strategy Masters League",
+      "description": "Tournament designed for players who enjoy tactical planning and strategic decisions.",
+      "gameGenre": "strategy",
+      "bannerUrl": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcRTt9NQZIS6S4VTxyauUOoM1U8TwKXTe4Idsr6lpLCtyR5R61mn0qReobdSsd9miDgBZJVHNxJkvF7NpBQ",
+      "urlToTournament": "https://battlefy.com/"
+    },
+    {
+      "id": 4,
+      "name": "Racing Speed Series",
+      "description": "High-speed competitive experience for racing game players.",
+      "gameGenre": "racing",
+      "bannerUrl": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcTrJU4NtBHqwJEOpUSt3fDdoiH3CSd461MTT5rgwydnZYEVcK71imAbkBjxxyaALgkLjIEWX56C96O1DHE",
+      "urlToTournament": "https://battlefy.com/"
+    },
+    {
+      "id": 5,
+      "name": "Sports Pro Challenge",
+      "description": "Sports-focused tournament for competitive online players.",
+      "gameGenre": "sports",
+      "bannerUrl": "https://tvpacifico.mx/admin/images/noticias/310453-206541.webp",
+      "urlToTournament": "https://battlefy.com/"
+    },
+    {
+      "id": 6,
+      "name": "Fighting Clash Tournament",
+      "description": "Competitive bracket for fighting game enthusiasts.",
+      "gameGenre": "fighting",
+      "bannerUrl": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcR59-W84sAkCSj_JuKEm5m2cG8br-wJc9rGRZ83wnOX-SU4fqi4sIUmbLQRL2cwzZfxrhTMRlCN2mCs-Yc",
+      "urlToTournament": "https://battlefy.com/"
+    }
+  ],
+  "tournament-games": [
+    {
+      "id": 1,
+      "tournamentId": 1,
+      "gameGenre": "shooter",
+      "gameId": 540,
+      "gameTitle": "Overwatch 2",
+      "players": 64,
+      "registeredAt": "2026-05-10T14:30:00.000Z"
+    },
+    {
+      "id": 2,
+      "tournamentId": 1,
+      "gameGenre": "shooter",
+      "gameId": 2,
+      "gameTitle": "World of Tanks",
+      "players": 48,
+      "registeredAt": "2026-05-11T09:15:00.000Z"
+    },
+    {
+      "id": 3,
+      "tournamentId": 2,
+      "gameGenre": "mmorpg",
+      "gameId": 475,
+      "gameTitle": "Genshin Impact",
+      "players": 40,
+      "registeredAt": "2026-05-12T11:45:00.000Z"
+    },
+    {
+      "id": 4,
+      "tournamentId": 3,
+      "gameGenre": "strategy",
+      "gameId": 466,
+      "gameTitle": "Eternal Fury",
+      "players": 32,
+      "registeredAt": "2026-05-13T16:00:00.000Z"
+    },
+    {
+      "id": 5,
+      "tournamentId": 4,
+      "gameGenre": "racing",
+      "gameId": 523,
+      "gameTitle": "Trackmania",
+      "players": 24,
+      "registeredAt": "2026-05-14T13:20:00.000Z"
+    },
+    {
+      "id": 6,
+      "tournamentId": 5,
+      "gameGenre": "sports",
+      "gameId": 452,
+      "gameTitle": "eFootball",
+      "players": 28,
+      "registeredAt": "2026-05-15T10:10:00.000Z"
+    },
+    {
+      "id": 7,
+      "tournamentId": 6,
+      "gameGenre": "fighting",
+      "gameId": 340,
+      "gameTitle": "Brawlhalla",
+      "players": 36,
+      "registeredAt": "2026-05-16T08:40:00.000Z"
+    }
+  ]
+}

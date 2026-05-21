@@ -1,0 +1,77 @@
+@import './base.css';
+
+#app {
+  min-height: 100vh;
+  font-weight: normal;
+}
+
+/* ─── Global view title styles ───────────────────────────────────────────── */
+.view-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #e2e8f0 !important;
+  letter-spacing: 0.03em;
+  font-family: 'Rajdhani', sans-serif;
+}
+
+.view-subtitle {
+  font-size: 1.15rem;
+  color: #94a3b8 !important;
+}
+
+/* ─── PrimeVue dark theme overrides ──────────────────────────────────────── */
+
+/* Toolbar */
+.p-toolbar {
+  background: #13131f !important;
+  border-color: rgba(139, 92, 246, 0.2) !important;
+}
+
+/* Card */
+.p-card {
+  background: #1a1a28 !important;
+  color: #e2e8f0 !important;
+  border: 1px solid rgba(139, 92, 246, 0.2) !important;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.4) !important;
+}
+.p-card .p-card-content,
+.p-card p,
+.p-card strong {
+  color: #e2e8f0 !important;
+}
+
+/* DataTable — eliminar todo el striping de PrimeVue */
+.p-datatable-table {
+  background: #1a1a28 !important;
+}
+.p-datatable .p-datatable-thead > tr > th {
+  background: #13131f !important;
+  color: #e2e8f0 !important;
+  border-color: rgba(139, 92, 246, 0.3) !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.04em;
+}
+.p-datatable .p-datatable-tbody > tr,
+.p-datatable .p-datatable-tbody > tr.p-row-odd,
+.p-datatable .p-datatable-tbody > tr.p-row-even,
+.p-datatable .p-datatable-tbody > tr:nth-child(odd),
+.p-datatable .p-datatable-tbody > tr:nth-child(even) {
+  background: #1a1a28 !important;
+  color: #cbd5e1 !important;
+}
+.p-datatable .p-datatable-tbody > tr:hover,
+.p-datatable .p-datatable-tbody > tr.p-row-odd:hover,
+.p-datatable .p-datatable-tbody > tr.p-row-even:hover {
+  background: #22223a !important;
+  color: #e2e8f0 !important;
+}
+.p-datatable .p-datatable-tbody > tr > td {
+  border-color: rgba(139, 92, 246, 0.15) !important;
+  color: #cbd5e1 !important;
+}
+
+/* Section titles */
+.games-section h3,
+h1, h2, h3, h4, h5, h6 {
+  color: #e2e8f0 !important;
+}
