@@ -11,6 +11,9 @@ const { locale } = useI18n()
 const router = useRouter()
 const route = useRoute()
 
+/** Logo URL built from environment variables via Logo.dev API */
+const logoUrl = `${import.meta.env.VITE_LOGO_DEV_URL}/battlefy.com?token=${import.meta.env.VITE_LOGO_DEV_TOKEN}&retina=true`
+
 /**
  * Switches the application locale.
  * @param {string} lang - Language code ('en' or 'es')
@@ -33,7 +36,7 @@ function isActive (path) {
       <template #start>
         <div class="toolbar-brand" role="banner">
           <img
-            :src="`https://img.logo.dev/battlefy.com?token=pk_X-1ZO13GSgeOoUrIuJ6BeQ`"
+            :src="logoUrl"
             alt="Battlefy logo"
             class="brand-logo"
             height="32"
